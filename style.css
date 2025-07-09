@@ -174,7 +174,7 @@ img { max-width: 100%; display: block; }
 
 /* ========== HERO ========== */
 .hero {
-  background: url('./img/hero12.jpg') center/cover no-repeat;
+  background: url('./img/hero.jpg') center/cover no-repeat;
   height: 88vh;
   position: relative;
   display: flex;
