@@ -48,20 +48,61 @@ img { max-width: 100%; display: block; }
   margin-bottom: 1rem;
 }
 .w-100 { width: 100%; }
-/* Marca de agua */
-.dev-watermark {
+
+/* ========== MODAL DESARROLLO ========== */
+.dev-watermark-overlay {
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(-30deg);
-  font-size: 6vw;
-  background:#0c2c4ea2;
-  color: rgba(255, 140, 0, 0.752);
-  font-weight: 900;
-  pointer-events: none;
-  user-select: none;
-  white-space: nowrap;
-  z-index: 1000;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.95);
+  color: #fff;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.6;
+  pointer-events: all;
+}
+
+.dev-watermark-content {
+  max-width: 100%;
+  width: 100%;
+}
+
+.dev-watermark-content p {
+  color: #fff;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  line-height: 1.6;
+}
+
+body.blocked {
+  overflow: hidden;
+  height: 100vh;
+}
+.wsp-fixed {
+  position: fixed;
+  bottom: 30%;
+  right: 50%;
+  z-index: 10001;
+  background: #25d366;
+  color: white;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+  transition: background 0.3s ease;
+}
+.wsp-fixed:hover {
+  background: #1ebe5b;
 }
 
 /* ========== NAVBAR ========== */

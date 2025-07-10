@@ -73,3 +73,4 @@ document.getElementById('wsp-form')?.addEventListener('submit', e => {
   const url = `https://wa.me/56974188951?text=${encodeURIComponent(txt)}`;
   window.open(url, '_blank');
 });
+
