@@ -3,7 +3,8 @@ const hamburger = document.getElementById('hamburger');
 const navDrawer = document.getElementById('navDrawer');
 const drawerClose = document.querySelector('.drawer-close');
 
-hamburger.addEventListener('click', () => {
+
+/* hamburger.addEventListener('click', () => {
   navDrawer.classList.add('nav-open');
   document.body.classList.add('no-scroll');
 });
@@ -16,7 +17,7 @@ navDrawer.addEventListener('click', e => {
     navDrawer.classList.remove('nav-open');
     document.body.classList.remove('no-scroll');
   }
-});
+}); */
 
 // SLIDER
 const slider = document.getElementById('serviciosSlider');
@@ -73,3 +74,4 @@ document.getElementById('wsp-form')?.addEventListener('submit', e => {
   const url = `https://wa.me/56974188951?text=${encodeURIComponent(txt)}`;
   window.open(url, '_blank');
 });
+
