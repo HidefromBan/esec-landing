@@ -83,29 +83,6 @@ img { max-width: 100%; display: block; }
 body.blocked {
   overflow: hidden;
   height: 100vh;
-<<<<<<< HEAD
-=======
-}
-.wsp-fixed {
-  position: fixed;
-  bottom: 30%;
-  right: 50%;
-  z-index: 10001;
-  background: #25d366;
-  color: white;
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.6rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
-  transition: background 0.3s ease;
-}
-.wsp-fixed:hover {
-  background: #1ebe5b;
->>>>>>> 5920b6ac33507dfbfd55f475800778424684a763
 }
 
 /* ========== NAVBAR ========== */
